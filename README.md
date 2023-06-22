@@ -16,14 +16,6 @@ Este é um site que funciona como uma página central para todos os seus links i
 - Os ícones podem ser alterados para representar visualmente cada link.
 - Os títulos dos links podem ser modificados para tornar mais claro o conteúdo de cada página.
 
-## Como Usar
-
-1. Faça um fork deste repositório para a sua própria conta no GitHub.
-2. Clone o repositório para o seu computador local.
-3. Edite o arquivo `index.html` para adicionar seus próprios links, ícones e títulos.
-4. Faça commit das suas alterações e envie para o GitHub.
-5. Habilite o GitHub Pages nas configurações do repositório para que seu site fique disponível publicamente.
-
 ## Exemplo
 
 Você pode conferir um exemplo deste site em ação [aqui](https://udabliu.github.io/linktree/).
