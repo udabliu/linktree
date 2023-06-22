@@ -114,4 +114,8 @@ body{
     .links button {
         width: 150px;
     }
+
+    .header-img img{
+        width: 20%;
+    }
 }
