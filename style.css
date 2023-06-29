@@ -7,15 +7,6 @@
     box-sizing: border-box;
 }
 
-html, body {
-    overflow-x: hidden;
-  }
-  
-img, embed, object, video {
-    max-width: 100%;
-    height: auto;
-  }
-  
 
 body{
     background-image:linear-gradient(#af7345,#d6bba6);
@@ -37,13 +28,13 @@ body{
     flex-direction: column;
     color: #fff;
     gap: 20px;
-    padding-bottom: 50px;
     text-align: center;
+    max-height: 100%;
 }
 
 
 .header-img img {
-    width: 100px;
+    width: 13%;
     border-radius: 190%;
     
 }
@@ -59,7 +50,7 @@ body{
 .social-links a{
     padding: 13px;
     font-size: 25px;
-    color: #000;
+    color: #861414;
     text-decoration: none;
     transition: 0.4s;
 }
@@ -94,9 +85,12 @@ body{
     text-align: center;
 }
 
+.links i {
+    font-size: 20px;
+}
+
 .links a,button:hover {
     color: #af7345;
-
 }
 
 .links:hover{
@@ -123,11 +117,51 @@ body{
 @media screen and (max-width: 768px) {
     .links a,
     .links button {
-        width: 250px;
+        width: 200px;
+        font-size: 15px;
     }
 
     .header-img img{
         width: 20%;
     }
 
+    .infos-box{
+        gap: 5px;
+        padding-bottom: 20%;
+    }
+
+}
+
+@media screen and (max-height: 600px) {
+    .infos-box{
+        gap: 0;
+    }
+
+    .header-img img{
+        width: 8%;
+    }
+
+    .title,.description{
+        font-size: 12px;
+    }
+    
+    .links a,button {
+        padding: 15px;
+        width: 300px;   
+    }
+    .mark {
+        padding: 1.5%;
+    }
+    
+   
+}
+
+@media screen and (max-width: 375px) {
+    .infos-box{
+        gap: 5px;
+    }
+    .mark span,
+    .mark a{
+        font-size: 10px;
+    }
 }
