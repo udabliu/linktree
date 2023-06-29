@@ -4,10 +4,10 @@ Este é um site que funciona como uma página central para todos os seus links i
 
 ## Como Funciona
 
-- Quando você acessa o site, uma página simples é exibida com uma lista de ícones e títulos de links.
+- Quando você acessa o site, uma página simples é exibida com uma lista de links.
 - Cada ícone representa um link específico.
 - Ao clicar em um ícone, você será redirecionado para a página associada ao link.
-- Os links podem levar a suas redes sociais, portfólio, blog, loja online ou qualquer outro lugar que você queira compartilhar.
+- Os links podem levar a redes sociais, portfólio, blog, loja online ou qualquer outro lugar que você queira compartilhar.
 
 ## Personalização
 
